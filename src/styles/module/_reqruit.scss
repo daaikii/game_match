@@ -1,0 +1,24 @@
+.reqruit{
+  height:92vh;
+  overflow: hidden;
+  &-wrapper{
+    margin:100px auto;
+    width:200px;
+    text-align: center;
+  }
+  &-categorie{
+    display:flex;
+    button{
+      @extend %button;
+      margin:20px auto;
+    }
+  }
+  &-form{
+    display:flex;
+    flex-flow: column;
+  }
+  &-submit{
+    @extend %button;
+    margin:20px auto;
+  }
+}

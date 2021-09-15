@@ -1,0 +1,19 @@
+.auth{
+  h2{
+    margin:0;
+  }
+  &-button{
+    @extend %button;
+    margin:20px auto;
+  }
+  &-link{
+    @extend %link;
+  }
+  &-form{
+    text-align: center;
+    margin-top:200px;
+    input{
+      @extend %input
+    }
+  }
+}

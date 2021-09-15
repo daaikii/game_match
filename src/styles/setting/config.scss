@@ -1,0 +1,16 @@
+$black:rgb(36, 36, 36);
+$white:white;
+$yellow:#fff7ca;
+$link:blue;
+
+$input-shadow:inset 0 0 10px 2px rgba(0,0,0,0.5);
+
+$breakpoints:(
+  "tb":"(min-width:960px)",
+  "pc":"(min-width:1280px)"
+);
+@mixin mq($breakpoint:tb){
+  @media screen and #{map-get($breakpoints,$breakpoint)}{
+    @content
+  }
+}

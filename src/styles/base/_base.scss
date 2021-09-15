@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+.app{
+  background-color: $white;
+}
+.container{
+  width:100%;
+  min-height:92vh;
+  background-color:rgb(236, 236, 236);
+  overflow: hidden;
+}

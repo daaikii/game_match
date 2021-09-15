@@ -1,0 +1,43 @@
+.setting{
+  height:92vh;
+  overflow: hidden;
+  text-align: center;
+  &-wrapper{
+    margin:40px auto;
+    width: 300px;
+    text-align: center;
+  }
+  &-input{
+    @extend %input;
+    width:40%;
+    margin:10px auto;
+    &__none{
+      display: none;
+      width:40%;
+    }
+  }
+  &-button{
+    @extend %button;
+    margin:20px auto;
+  }
+  &-title{
+    margin-bottom:20px;
+  }
+  &-subtitle{
+    display:flex;
+    flex-flow:row;
+    &-child{
+      margin:0 auto;
+      width:50%;
+    }
+  }
+  &-post{
+    display:flex;
+    flex-flow:row;
+    margin-bottom: 20px;
+    &-child{
+      width:40%;
+      margin:10px auto;
+    }
+  }
+}

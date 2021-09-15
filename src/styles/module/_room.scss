@@ -1,0 +1,26 @@
+.room{
+  text-align: center;
+  width:100%;
+  min-height:90vh;
+  &-title{
+    margin:20px auto;
+  }
+  &-roomId{
+    margin:20px auto;
+  }
+  &-platform{
+    margin:20px auto;
+  }
+  &-list-wrapper{
+    margin:20px auto;
+  }
+  &-list{
+    width:300px;
+    margin:20px auto;
+    display:flex;
+    flex-direction:row;
+    &-item{
+      padding:20px;
+    }
+  }
+}

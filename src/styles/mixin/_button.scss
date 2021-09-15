@@ -1,0 +1,19 @@
+%button{
+  outline:none;
+  border:none;
+  background-color:$white;
+  box-shadow:0px 0px 2px 0px rgba(0, 0, 0, 0.103);
+  &:hover{
+    cursor: pointer;
+  }
+  &:active{
+    box-shadow: none;
+  }
+}
+%link{
+  width:60%;
+  margin:10px auto;
+  cursor:pointer;
+  color:$link;
+  text-align: center;
+}

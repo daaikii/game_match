@@ -1,0 +1,44 @@
+.user{
+  height:92vh;
+  overflow: hidden;
+  text-align: center;
+  &-wrapper{
+    margin:200px auto;
+  }
+  &-input{
+    @extend %input
+  };
+  &-button{
+    &-included{
+      @extend %button;
+      margin:0;
+    }
+    &-empty{
+      @extend %button;
+      margin:0;
+    }
+    &-label{
+      display:flex;
+      height:100%;
+      cursor: pointer;
+      width:100%;
+      align-items:center;
+      input[type=file]{
+        display:none
+      }
+    }
+    &-icon{
+      width:100%;
+    }
+  }
+  &-reset{
+    @extend %link;
+  }
+  &-mini-button{
+    @extend %button;
+    margin-left:10px;
+  }
+  &-margin-bottom__20px{
+    margin-bottom:20px;
+  }
+}
